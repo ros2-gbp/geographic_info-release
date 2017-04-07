@@ -1,3 +1,29 @@
+## geographic_info (lunar) - 0.5.0-0
+
+The packages in the `geographic_info` repository were released into the `lunar` distro by running `/usr/bin/bloom-release geographic_info -t lunar -r lunar` on `Fri, 07 Apr 2017 16:37:50 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.5.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## geographic_info (kinetic) - 0.4.0-0
 
 The packages in the `geographic_info` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release geographic_info -t kinetic -r kinetic -n` on `Fri, 15 Apr 2016 18:52:04 -0000`
