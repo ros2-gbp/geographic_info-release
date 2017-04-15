@@ -15,8 +15,11 @@ add_message_files(
   BoundingBox.msg
   GeographicMapChanges.msg
   GeographicMap.msg
+  GeoPath.msg
   GeoPoint.msg
+  GeoPointStamped.msg
   GeoPose.msg
+  GeoPoseStamped.msg
   KeyValue.msg
   MapFeature.msg
   RouteNetwork.msg
@@ -29,6 +32,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   GetGeographicMap.srv
+  GetGeoPath.srv
   GetRoutePlan.srv
   UpdateGeographicMap.srv
 )
