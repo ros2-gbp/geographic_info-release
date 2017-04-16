@@ -1,0 +1,62 @@
+ros-jade-geographic-msgs (0.5.2-0trusty) trusty; urgency=high
+
+  * Fix merge error in GeoPath message.
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sat, 15 Apr 2017 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.5.1-0trusty) trusty; urgency=high
+
+  * Add GeoPath message with poses.
+  * Add GetGeoPath service (#7 <https://github.com/ros-geographic-info/geographic_info/issues/7>).
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sat, 15 Apr 2017 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.5.0-0trusty) trusty; urgency=high
+
+  * Add new ``GeoPointStamped`` and ``GeoPoseStamped`` messages.
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Fri, 07 Apr 2017 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.4.0-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Thu, 18 Sep 2014 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.3.2-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sat, 30 Aug 2014 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.3.1-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Thu, 03 Oct 2013 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.3.0-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sat, 03 Aug 2013 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.2.1-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 13 Aug 2012 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.2.0-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Sat, 02 Jun 2012 05:00:00 -0000
+
+ros-jade-geographic-msgs (0.1.0-0trusty) trusty; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 10 Apr 2012 05:00:00 -0000
+
+
