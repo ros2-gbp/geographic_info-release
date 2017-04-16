@@ -1,3 +1,29 @@
+## geographic_info (jade) - 0.5.2-0
+
+The packages in the `geographic_info` repository were released into the `jade` distro by running `/usr/bin/bloom-release geographic_info -t jade -r jade -e` on `Sun, 16 Apr 2017 15:02:49 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: https://github.com/ros-geographic-info/geographic_info-release.git
+- rosdistro version: `0.4.0-0`
+- old version: `0.4.0-0`
+- new version: `0.5.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## geographic_info (indigo) - 0.5.2-0
 
 The packages in the `geographic_info` repository were released into the `indigo` distro by running `/usr/bin/bloom-release geographic_info -t indigo -r indigo -e` on `Sun, 16 Apr 2017 14:19:26 -0000`
