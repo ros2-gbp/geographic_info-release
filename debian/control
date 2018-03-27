@@ -1,0 +1,12 @@
+Source: ros-melodic-geographic-msgs
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-std-msgs, ros-melodic-uuid-msgs
+Homepage: http://wiki.ros.org/geographic_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-geographic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-std-msgs, ros-melodic-uuid-msgs
+Description: ROS messages for Geographic Information Systems.
