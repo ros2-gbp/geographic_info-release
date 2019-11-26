@@ -1,3 +1,29 @@
+## geographic_info (eloquent) - 1.0.1-1
+
+The packages in the `geographic_info` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent --track eloquent geographic_info` on `Tue, 26 Nov 2019 18:24:04 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## geographic_info (dashing) - 1.0.1-1
 
 The packages in the `geographic_info` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --rosdistro dashing --track dashing geographic_info --edit` on `Fri, 20 Sep 2019 23:43:26 -0000`
