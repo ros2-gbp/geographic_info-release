@@ -1,0 +1,13 @@
+Source: ros-eloquent-geographic-info
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake, ros-eloquent-geodesy, ros-eloquent-geographic-msgs, ros-eloquent-ros-workspace
+Homepage: http://wiki.ros.org/geographic_info
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-geographic-info
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-geodesy, ros-eloquent-geographic-msgs, ros-eloquent-ros-workspace
+Description: Geographic information metapackage.
+ Not needed for wet packages, use only to resolve dry stack dependencies.
