@@ -1,2 +1,2 @@
-std_msgs/Header header
+Header header
 geographic_msgs/GeoPose pose

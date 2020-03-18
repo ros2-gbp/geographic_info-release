@@ -5,9 +5,9 @@
 # GeographicMap.  A RouteNetwork contains only the way points and
 # route segments of interest for path planning.
 
-std_msgs/Header          header
+Header          header
 
-unique_identifier_msgs/UUID id    # This route network identifier
+uuid_msgs/UniqueID id    # This route network identifier
 BoundingBox     bounds   # 2D bounding box for network
 
 WayPoint[]      points   # Way points in this network
