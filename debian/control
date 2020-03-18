@@ -1,0 +1,12 @@
+Source: ros-noetic-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg-modules, python3-setuptools, ros-noetic-angles, ros-noetic-catkin, ros-noetic-geographic-msgs, ros-noetic-geometry-msgs, ros-noetic-rosunit, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-unique-id, ros-noetic-uuid-msgs
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-noetic-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pyproj, ros-noetic-geographic-msgs, ros-noetic-geometry-msgs, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-unique-id, ros-noetic-uuid-msgs
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
