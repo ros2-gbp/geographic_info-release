@@ -1,0 +1,12 @@
+Source: ros-noetic-geographic-msgs
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-std-msgs, ros-noetic-uuid-msgs
+Homepage: http://wiki.ros.org/geographic_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-geographic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-std-msgs, ros-noetic-uuid-msgs
+Description: ROS messages for Geographic Information Systems.
