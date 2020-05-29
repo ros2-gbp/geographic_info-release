@@ -1,3 +1,29 @@
+## geographic_info (foxy) - 1.0.3-1
+
+The packages in the `geographic_info` repository were released into the `foxy` distro by running `/usr/bin/bloom-release geographic_info --track foxy --rosdistro foxy --new-track` on `Fri, 29 May 2020 21:22:47 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## geographic_info (noetic) - 0.5.5-1
 
 The packages in the `geographic_info` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic geographic_info --edit` on `Wed, 18 Mar 2020 22:35:34 -0000`
