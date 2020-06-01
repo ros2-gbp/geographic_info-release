@@ -1,0 +1,12 @@
+Source: ros-foxy-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg, python3-pyproj, ros-foxy-ament-cmake, ros-foxy-angles, ros-foxy-geographic-msgs, ros-foxy-geometry-msgs, ros-foxy-sensor-msgs, ros-foxy-unique-identifier-msgs, ros-foxy-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-foxy-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pyproj, ros-foxy-angles, ros-foxy-geographic-msgs, ros-foxy-geometry-msgs, ros-foxy-sensor-msgs, ros-foxy-unique-identifier-msgs, ros-foxy-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
