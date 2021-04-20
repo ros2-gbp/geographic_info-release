@@ -1,0 +1,12 @@
+Source: ros-galactic-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg, python3-pyproj, ros-galactic-ament-cmake, ros-galactic-angles, ros-galactic-geographic-msgs, ros-galactic-geometry-msgs, ros-galactic-sensor-msgs, ros-galactic-unique-identifier-msgs, ros-galactic-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-galactic-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pyproj, ros-galactic-angles, ros-galactic-geographic-msgs, ros-galactic-geometry-msgs, ros-galactic-sensor-msgs, ros-galactic-unique-identifier-msgs, ros-galactic-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
