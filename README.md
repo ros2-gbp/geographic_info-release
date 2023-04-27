@@ -1,3 +1,29 @@
+## geographic_info (humble) - 1.0.5-1
+
+The packages in the `geographic_info` repository were released into the `humble` distro by running `/usr/bin/bloom-release geographic_info --rosdistro humble --track humble --edit` on `Thu, 27 Apr 2023 16:57:23 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: https://github.com/ros2-gbp/geographic_info-release.git
+- rosdistro version: `1.0.4-6`
+- old version: `1.0.4-6`
+- new version: `1.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## geographic_info (rolling) - 1.0.4-4
 
 The packages in the `geographic_info` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling geographic_info` on `Fri, 26 Mar 2021 12:37:15 -0000`
