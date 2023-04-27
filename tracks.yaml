@@ -188,7 +188,7 @@ tracks:
     patches: null
     release_inc: '8'
     release_repo_url: null
-    release_tag: 1.0.4
+    release_tag: :{version}
     ros_distro: iron
     vcs_type: git
     vcs_uri: https://github.com/ros-geographic-info/geographic_info.git
