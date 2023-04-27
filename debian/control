@@ -1,0 +1,13 @@
+Source: ros-iron-geographic-info
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-geodesy, ros-iron-geographic-msgs, ros-iron-ros-workspace
+Homepage: http://wiki.ros.org/geographic_info
+Standards-Version: 3.9.2
+
+Package: ros-iron-geographic-info
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geodesy, ros-iron-geographic-msgs, ros-iron-ros-workspace
+Description: Geographic information metapackage.
+ Not needed for wet packages, use only to resolve dry stack dependencies.
