@@ -1,0 +1,12 @@
+Source: ros-jazzy-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, libangles-dev, libgeometry-msgs-dev, libsensor-msgs-dev, python3-angles, python3-catkin-pkg, python3-geometry-msgs, python3-pyproj, python3-sensor-msgs, ros-geometry-msgs, ros-jazzy-geographic-msgs, ros-jazzy-unique-identifier-msgs, ros-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libangles-dev, libgeometry-msgs-dev, libsensor-msgs-dev, python3-angles, python3-geometry-msgs, python3-pyproj, python3-sensor-msgs, ros-geometry-msgs, ros-jazzy-geographic-msgs, ros-jazzy-unique-identifier-msgs, ros-sensor-msgs, ros-jazzy-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
