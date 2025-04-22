@@ -1,0 +1,12 @@
+Source: ros-kilted-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg, python3-pyproj, ros-kilted-ament-cmake, ros-kilted-angles, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-sensor-msgs, ros-kilted-unique-identifier-msgs, ros-kilted-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-kilted-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pyproj, ros-kilted-angles, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-sensor-msgs, ros-kilted-unique-identifier-msgs, ros-kilted-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
