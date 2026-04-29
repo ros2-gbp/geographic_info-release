@@ -338,7 +338,7 @@ tracks:
     last_version: 1.0.6
     name: geographic_info
     patches: null
-    release_inc: '2'
+    release_inc: '3'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: lyrical
