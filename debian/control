@@ -1,0 +1,12 @@
+Source: ros-lyrical-geographic-msgs
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-generators, ros-lyrical-std-msgs, ros-lyrical-unique-identifier-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/geographic_msgs
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-geographic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-unique-identifier-msgs, ros-lyrical-ros-workspace
+Description: ROS messages for Geographic Information Systems.
