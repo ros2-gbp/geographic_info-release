@@ -1,0 +1,12 @@
+Source: ros-lyrical-geodesy
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg, python3-pyproj, ros-lyrical-ament-cmake, ros-lyrical-angles, ros-lyrical-geographic-msgs, ros-lyrical-geometry-msgs, ros-lyrical-sensor-msgs, ros-lyrical-unique-identifier-msgs, ros-lyrical-ros-workspace
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pyproj, ros-lyrical-angles, ros-lyrical-geographic-msgs, ros-lyrical-geometry-msgs, ros-lyrical-sensor-msgs, ros-lyrical-unique-identifier-msgs, ros-lyrical-ros-workspace
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
