@@ -1,3 +1,29 @@
+## geographic_info (lyrical) - 1.0.7-3
+
+The packages in the `geographic_info` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --track rolling --rosdistro lyrical geographic_info` on `Fri, 15 May 2026 20:36:53 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: https://github.com/ros2-gbp/geographic_info-release.git
+- rosdistro version: `1.0.6-3`
+- old version: `1.0.7-2`
+- new version: `1.0.7-3`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## geographic_info (lyrical) - 1.0.7-2
 
 The packages in the `geographic_info` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --track rolling --rosdistro lyrical geographic_info` on `Fri, 15 May 2026 20:25:49 -0000`
