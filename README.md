@@ -1,3 +1,29 @@
+## geographic_info (rolling) - 1.0.7-1
+
+The packages in the `geographic_info` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling geographic_info` on `Fri, 15 May 2026 20:24:40 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: https://github.com/ros2-gbp/geographic_info-release.git
+- rosdistro version: `1.0.6-2`
+- old version: `1.0.6-2`
+- new version: `1.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.2`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## geographic_info (iron) - 1.0.6-1
 
 The packages in the `geographic_info` repository were released into the `iron` distro by running `/usr/bin/bloom-release geographic_info --rosdistro iron --track iron --edit` on `Thu, 04 Apr 2024 18:52:38 -0000`
